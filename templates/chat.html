@@ -6,6 +6,7 @@
 
 <body>
     <h1>Welcome, {{ username }}</h1>
+    <p>To chat, enter a url in the format /username/message. The chat will refresh every 5 seconds, or you can manually refresh it to see the chat messages below: </p>
     {% for message in chat_messages %}
     <p>{{ message }}</p>
     {% endfor %}
