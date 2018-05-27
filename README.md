@@ -6,4 +6,4 @@ The app demonstrates the use of URLs to send data to the server, write it to a f
 
 #### Live Version: 
 
-There is a live version available at http://ci-pp-flask-chat.herokuapp.com
+There is a live version available at https://ci-pp-flask-chat.herokuapp.com (This is a free dyno and may go to sleep, so be patient on initial load!)
