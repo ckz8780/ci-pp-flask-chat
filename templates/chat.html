@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>Home Page</title>
+</head>
+
+<body>
+    <h1>Welcome, {{ username }}</h1>
+    {% for message in chat_messages %}
+    <p>{{ message }}</p>
+    {% endfor %}
+
+    <script>
+        setTimeout(function() {
+            location.reload();
+        }, 5000);
+    </script>
+</body>
+
+</html>
